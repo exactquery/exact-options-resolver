@@ -1,0 +1,29 @@
+{
+    "name": "exactquery/exact-options-resolver",
+    "description": "Adds additional types as use with the Symfony Options Resolver component. Works as a stand-alone component or as part of a Symfony application.  Also includes a stand-alone validation class.",
+    "keywords": [
+        "php",
+        "symfony",
+        "resolver",
+        "options",
+        "validation",
+        "configuration"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.github.com/exactquery/exact-options-resolver",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Aaron M Jones",
+            "homepage": "http://www.jonesiscoding.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XQ\\OptionsResolver\\": "src"
+        }
+    },
+    "require": {
+        "symfony/options-resolver": ">=2.8"
+    }
+}
